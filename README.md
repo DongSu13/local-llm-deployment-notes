@@ -92,12 +92,10 @@ python3.12 -m venv .venv-training
 
 16 个推理示例已通过合成 HTTP 响应的离线执行检查；两份微调配置已通过字段与模拟训练流程检查。详细方法见 [验证记录](docs/verification.md)。
 
-尚未进行真实模型推理、GPU 训练、适配器导入或质量评估。本地未找到早期训练脚本、适配器与评测记录，因此新增微调参考内容不代表历史训练成果。配置中的模型和数据 revision 也未形成完全固定的实验快照。
+尚未进行真实模型推理、GPU 训练、适配器导入或质量评估。配置中的模型和数据 revision 也未形成完全固定的实验快照。
 
 ## 来源与许可
 
 - Ollama Python 示例：v0.6.3，[MIT](examples/ollama/LICENSE)。
 - TRL SFT 入口和参数定义：v0.15.2，[Apache-2.0](finetuning/LICENSE)。
 - 本地配置及本次编写的使用文档与第三方代码分开注明；具体修改见 [来源说明](THIRD_PARTY_NOTICES.md) 与 [文件清单](SOURCE_MANIFEST.json)。
-
-仓库仅保存源码、配置和技术说明；个人文件、密钥、真实服务器信息、聊天记录、数据集和模型权重不随仓库上传。

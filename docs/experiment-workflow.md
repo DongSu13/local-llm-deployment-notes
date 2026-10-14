@@ -6,7 +6,7 @@
 
 默认入口通过 `load_dataset(dataset_name, name=dataset_config)` 读取公开 Hugging Face 数据集，当前选择 `trl-lib/Capybara` 的 `train` 划分。评估关闭时不读取测试划分。原始数据不存入仓库。
 
-TRL 支持多种 SFT 数据格式；当前流程使用会话消息。下面是格式示意，并非本地个人聊天记录：
+TRL 支持多种 SFT 数据格式；当前流程使用会话消息，格式示例如下：
 
 ```json
 {"messages": [{"role": "user", "content": "解释什么是梯度累积。"}, {"role": "assistant", "content": "多次小批量反向传播后再执行一次参数更新。"}]}

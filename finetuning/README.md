@@ -2,8 +2,6 @@
 
 训练入口来自 [Hugging Face TRL v0.15.2](https://github.com/huggingface/trl/blob/fc2b041b58f6fbe766dceaec819bc5a8f9d209da/trl/scripts/sft.py)，按 [Apache-2.0](LICENSE) 保留源码和版权。只调整了源码注释中的命令路径和本地保存示例，训练逻辑保持上游实现。
 
-这部分是新增微调参考源码。本地未找到早期项目对应的训练脚本、适配器或评测结果，不能将本目录当作历史训练完成证明。
-
 ## 文件
 
 | 文件 | 作用 |
