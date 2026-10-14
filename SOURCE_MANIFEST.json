@@ -1,0 +1,209 @@
+{
+  "local_configuration": {
+    "path": "Modelfile",
+    "origin": "Historical local configuration; FROM/PARAMETER lines only."
+  },
+  "upstream_versions": {
+    "ollama-python": {
+      "tag": "v0.6.3",
+      "commit": "8785556559ec1d045d27a1ba9d9cc7330c3d3cb1"
+    },
+    "trl": {
+      "tag": "v0.15.2",
+      "commit": "fc2b041b58f6fbe766dceaec819bc5a8f9d209da"
+    }
+  },
+  "files": [
+    {
+      "path": "examples/ollama/LICENSE",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/LICENSE",
+      "license": "MIT",
+      "original_sha256": "5934ed2ce0d15154bcdb9c85203210abac0da4314af34081e36df4599f90b226",
+      "sha256": "5934ed2ce0d15154bcdb9c85203210abac0da4314af34081e36df4599f90b226",
+      "modifications": []
+    },
+    {
+      "path": "examples/ollama/async-chat.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/async-chat.py",
+      "license": "MIT",
+      "original_sha256": "6f9e8c18de47fea20b608f3c9d62cbd915143b2bfddf19770234bff2b947e7d0",
+      "sha256": "85f13ba624119ba35bfe74bc6068180978737cd6be542774f5fa0466df1415d8",
+      "modifications": [
+        "Default gemma4 model changed to deepseek-local-demo."
+      ]
+    },
+    {
+      "path": "examples/ollama/async-generate.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/async-generate.py",
+      "license": "MIT",
+      "original_sha256": "db2c578d69a9dc65d7d6eeb959e2686a72672290031afd293ca6d0c791e13a29",
+      "sha256": "2d05abb0a7faf5f90efa2c451247fef8fdaf0543f3aa20f026705e06e9ffcda7",
+      "modifications": [
+        "Default gemma4 model changed to deepseek-local-demo."
+      ]
+    },
+    {
+      "path": "examples/ollama/async-structured-outputs.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/async-structured-outputs.py",
+      "license": "MIT",
+      "original_sha256": "bfdc79458e07637a89d70404582c4c04cae7a3c31ef9f641389aab8f4e3fe3e7",
+      "sha256": "bfdc79458e07637a89d70404582c4c04cae7a3c31ef9f641389aab8f4e3fe3e7",
+      "modifications": []
+    },
+    {
+      "path": "examples/ollama/async-tools.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/async-tools.py",
+      "license": "MIT",
+      "original_sha256": "c753aa823e2e100f825c9a1854189cd8f7d31642f0866ad1a1946ee21810cd0d",
+      "sha256": "c753aa823e2e100f825c9a1854189cd8f7d31642f0866ad1a1946ee21810cd0d",
+      "modifications": []
+    },
+    {
+      "path": "examples/ollama/chat-stream.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/chat-stream.py",
+      "license": "MIT",
+      "original_sha256": "ed4ea5217687ca766e0efe3a3bebc9a8e3451dde35a02b10b178eb13becf319e",
+      "sha256": "f4420c3bd347f1d677053034a2c2cd18644536d107be99cac87db113cc136704",
+      "modifications": [
+        "Default gemma4 model changed to deepseek-local-demo."
+      ]
+    },
+    {
+      "path": "examples/ollama/chat-with-history.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/chat-with-history.py",
+      "license": "MIT",
+      "original_sha256": "d64995b83af3ddee774e7eab9206138f6c837a1246e015dc47ee2df32430f4cd",
+      "sha256": "96699625fb00d03b0ffa6c83a266e0808f00ca7d315f75484de86410d39d174e",
+      "modifications": [
+        "Default gemma4 model changed to deepseek-local-demo."
+      ]
+    },
+    {
+      "path": "examples/ollama/chat.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/chat.py",
+      "license": "MIT",
+      "original_sha256": "f2394042195a5beb03a54bd92ffaceb92ea53186ff5585b04f4db272012ded41",
+      "sha256": "b619f88e1f77072fd4985d2169b573b852f0904192677728bfb208936b9aa5c1",
+      "modifications": [
+        "Default gemma4 model changed to deepseek-local-demo."
+      ]
+    },
+    {
+      "path": "examples/ollama/create.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/create.py",
+      "license": "MIT",
+      "original_sha256": "818816eeb206a6f6b82eaf0dba4b38e5f5355a3cd58ca267ef182d98d6644f6b",
+      "sha256": "d3ffb21dea39e08e68d440dc072363400e402632b2ace585ec77c77914193cc2",
+      "modifications": [
+        "Default gemma4 model changed to deepseek-local-demo.",
+        "Example persona replaced with a neutral assistant."
+      ]
+    },
+    {
+      "path": "examples/ollama/embed.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/embed.py",
+      "license": "MIT",
+      "original_sha256": "f91eb1cec283a5f066a856e3693f691d83c181c188aed16716572573da4e6a5f",
+      "sha256": "f91eb1cec283a5f066a856e3693f691d83c181c188aed16716572573da4e6a5f",
+      "modifications": []
+    },
+    {
+      "path": "examples/ollama/generate-stream.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/generate-stream.py",
+      "license": "MIT",
+      "original_sha256": "0ef748b1a5c4911f6fb54a11085fdb5b32ae6d68a4533b448323e26ba916a265",
+      "sha256": "5e47c9fc89a339f57c14094432c7311cc1455ffc6c87be82b7458d5faa4a149b",
+      "modifications": [
+        "Default gemma4 model changed to deepseek-local-demo."
+      ]
+    },
+    {
+      "path": "examples/ollama/generate.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/generate.py",
+      "license": "MIT",
+      "original_sha256": "5ab68765fe5baaf902674156f01078b7d67dca41b2277a6795e1d3d44bd8aea2",
+      "sha256": "259eef94ae1a70ed434444d867cf8f28f17246dd6faad908410ec03dc2da6116",
+      "modifications": [
+        "Default gemma4 model changed to deepseek-local-demo."
+      ]
+    },
+    {
+      "path": "examples/ollama/list.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/list.py",
+      "license": "MIT",
+      "original_sha256": "1a0044e6fb947a7d55266a55f728aedc5f4682de00fc149291a3d564e6347bf4",
+      "sha256": "1a0044e6fb947a7d55266a55f728aedc5f4682de00fc149291a3d564e6347bf4",
+      "modifications": []
+    },
+    {
+      "path": "examples/ollama/ps.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/ps.py",
+      "license": "MIT",
+      "original_sha256": "a16270edff7bfd52f7d44a4448d1ae52053077e43a24c025183eaf74327513c2",
+      "sha256": "393034093c02b0ef37145ae889b8fd760effdcd72102b4f7cd038e06c5bd58ee",
+      "modifications": [
+        "Default gemma4 model changed to deepseek-r1:1.5b."
+      ]
+    },
+    {
+      "path": "examples/ollama/show.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/show.py",
+      "license": "MIT",
+      "original_sha256": "ac39a933dbc0dad25f35e7bdd15b7054d27328e7e1df136e0266fb705d6f0ffb",
+      "sha256": "70aa205fe22f4e42170f06148cd944af6c044736ed1d674a1d914a7a7fd98aca",
+      "modifications": [
+        "Default gemma4 model changed to deepseek-local-demo."
+      ]
+    },
+    {
+      "path": "examples/ollama/structured-outputs.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/structured-outputs.py",
+      "license": "MIT",
+      "original_sha256": "77ba1986f35e08da26fe9529798a9fd105707256af2a67c5b807f05a4000274d",
+      "sha256": "77ba1986f35e08da26fe9529798a9fd105707256af2a67c5b807f05a4000274d",
+      "modifications": []
+    },
+    {
+      "path": "examples/ollama/tools.py",
+      "source": "https://github.com/ollama/ollama-python/blob/8785556559ec1d045d27a1ba9d9cc7330c3d3cb1/examples/tools.py",
+      "license": "MIT",
+      "original_sha256": "dd3e55db866adaf0318728162890911ad6dfebb81399f31d6337e573ebfabdfb",
+      "sha256": "dd3e55db866adaf0318728162890911ad6dfebb81399f31d6337e573ebfabdfb",
+      "modifications": []
+    },
+    {
+      "path": "finetuning/LICENSE",
+      "source": "https://github.com/huggingface/trl/blob/fc2b041b58f6fbe766dceaec819bc5a8f9d209da/LICENSE",
+      "license": "Apache-2.0",
+      "original_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "modifications": []
+    },
+    {
+      "path": "finetuning/reference/model_config.py",
+      "source": "https://github.com/huggingface/trl/blob/fc2b041b58f6fbe766dceaec819bc5a8f9d209da/trl/trainer/model_config.py",
+      "license": "Apache-2.0",
+      "original_sha256": "2c6cef3c5a8929905d02077f1ea5dce9efe5e31bfe1d5fa90f39a6ef572890d4",
+      "sha256": "2c6cef3c5a8929905d02077f1ea5dce9efe5e31bfe1d5fa90f39a6ef572890d4",
+      "modifications": []
+    },
+    {
+      "path": "finetuning/reference/sft_config.py",
+      "source": "https://github.com/huggingface/trl/blob/fc2b041b58f6fbe766dceaec819bc5a8f9d209da/trl/trainer/sft_config.py",
+      "license": "Apache-2.0",
+      "original_sha256": "e2252772638a24afdf5579ffccc35d043bb91f40f63a4364d26cfab76d87fce0",
+      "sha256": "e2252772638a24afdf5579ffccc35d043bb91f40f63a4364d26cfab76d87fce0",
+      "modifications": []
+    },
+    {
+      "path": "finetuning/sft.py",
+      "source": "https://github.com/huggingface/trl/blob/fc2b041b58f6fbe766dceaec819bc5a8f9d209da/trl/scripts/sft.py",
+      "license": "Apache-2.0",
+      "original_sha256": "2c87a9991b0d98eba1e7f2aa15c2a7d4c069977a6eebbe2e9f7ea5c71311dae1",
+      "sha256": "9b9bce725614d1cb805337116fe016b0c04b5093b70644224593245e5a6e12fd",
+      "modifications": [
+        "Docstring command paths adapted; push_to_hub removed from command examples. Training logic unchanged; shipped configs explicitly disable hub uploads."
+      ]
+    }
+  ]
+}
