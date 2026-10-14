@@ -1,0 +1,4 @@
+FROM deepseek-r1:1.5b
+PARAMETER temperature 0.9
+PARAMETER stop "用户："
+PARAMETER num_ctx 4096
