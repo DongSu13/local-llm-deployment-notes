@@ -96,6 +96,8 @@ python3.12 -m venv .venv-training
 
 ## 来源与许可
 
+本仓库自行编写的源码、配置和文档默认采用 [Apache-2.0](LICENSE)。第三方内容沿用各自许可证：
+
 - Ollama Python 示例：v0.6.3，[MIT](examples/ollama/LICENSE)。
 - TRL SFT 入口和参数定义：v0.15.2，[Apache-2.0](finetuning/LICENSE)。
 - 本地配置及本次编写的使用文档与第三方代码分开注明；具体修改见 [来源说明](THIRD_PARTY_NOTICES.md) 与 [文件清单](SOURCE_MANIFEST.json)。

@@ -1,5 +1,7 @@
 # 源码来源与许可证
 
+本仓库自行编写的源码、配置和文档默认采用 [Apache-2.0](LICENSE)。下表中的第三方内容按所列上游许可证使用，原版权声明及许可证随源码保留。
+
 | 内容 | 上游 | 固定版本 | 许可证 |
 | --- | --- | --- | --- |
 | Python 推理示例 | [ollama/ollama-python](https://github.com/ollama/ollama-python) | v0.6.3，提交 `8785556559ec1d045d27a1ba9d9cc7330c3d3cb1` | [MIT](examples/ollama/LICENSE) |

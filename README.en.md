@@ -96,6 +96,8 @@ Live model inference, GPU training, adapter import, and quality evaluation have 
 
 ## Sources and licensing
 
+Unless otherwise noted, original code, configuration, and documentation in this repository are licensed under [Apache-2.0](LICENSE). Third-party content retains its respective license:
+
 - Ollama Python examples: v0.6.3, [MIT](examples/ollama/LICENSE).
 - TRL SFT entry point and parameter definitions: v0.15.2, [Apache-2.0](finetuning/LICENSE).
 - Local configuration and newly written documentation are identified separately from upstream code. See [notices](THIRD_PARTY_NOTICES.md) and the [file manifest](SOURCE_MANIFEST.json) for modifications.
